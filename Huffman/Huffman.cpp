@@ -247,12 +247,18 @@ int main()
 {
     createTextVar();
     getLettersApparition();
+    //checkMap();
     sortMap();
+    //checkSortedLetters();
     createNodes();
     createTree();
+    //checkSortedNodes();
     assignValue();
+    // checkValueFromTree();
     makeHuffmanTable();
+    //checkHuffmanTable();
     transformToHuffman();
+    //checkCodedTable();
     cout << "TRANSLATED TEXT" << endl;
     cout << endl;
     decodingHuffman(codingTable, codedTable);
